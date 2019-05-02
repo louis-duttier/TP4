@@ -1,1 +1,1 @@
-int _kbhit();
+int kbhit();

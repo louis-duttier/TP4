@@ -1,5 +1,5 @@
-#ifndef _CHRONO
-#define _CHRONO
+#ifndef CHRONO_H
+#define CHRONO_H
 
 namespace nsDigicode {
 

@@ -1,5 +1,5 @@
-#ifndef _OBJETTEMPO
-#define _OBJETTEMPO
+#ifndef OBJETTEMPO_H
+#define OBJETTEMPO_H
 
 #include "Chrono.h"
 
@@ -7,10 +7,15 @@ namespace nsDigicode {
 
 	class ObjetTempo 
     {
-    public:
-        Chrono* getChrono() {}
-        void finTempo() {}
-        int getDelai() {}
+        protected:
+            bool Attente;
+            Chrono* mypChrono;
+            int delai;
+        public:
+            ObjetTempo(Chrono* chrono, const int & delai);
+            Chrono* getChrono() const;
+            void finTempo();
+            int getDelai() const;
     };
 	
 } /* ns_Digicode */

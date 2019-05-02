@@ -1,5 +1,5 @@
-#ifndef _ARCHIVAGE
-#define _ARCHIVAGE
+#ifndef ARCHIVAGE_H
+#define ARCHIVAGE_H
 
 namespace nsDigicode {
 
